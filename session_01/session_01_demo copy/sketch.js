@@ -36,18 +36,6 @@ function setup() {
 }
 
 function draw() {
-    // draw background
-    // the numbers represent 
     background(220, 200, 230);
-    
-    fill('blue');
-    // stroke('White');
-    // strokeWeight(10);
-    circle(200, 200, 100);
-
-    fill('pink');
-    stroke('red');
-    strokeWeight(5);
     circle(200, 200, 50);
-    noLoop(); // don't animete
 }
